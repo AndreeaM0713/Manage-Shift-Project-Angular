@@ -1,0 +1,17 @@
+<mat-toolbar class="navigation-bar" (ngSubmit)="ngOnInit()" >
+    <mat-icon class="navigation-bar__logo">
+        <a routerLink="/home-page">
+            <img src="../assets/LOGO-white.png" alt="logo" width="70vw">
+        </a>
+    </mat-icon>
+
+    <span>HELLO, <input type="text" matInput [(ngModel)]="helloUser" style="color: black;"></span>
+
+    <a mat-button routerLink="/all-workers-page">EMPLOYEES LIST</a>
+
+    <a mat-button routerLink="/all-shifts-page">SHIFTS LIST</a>
+
+    <a mat-button routerLink="/login">LOG OUT</a>
+</mat-toolbar>
+
+

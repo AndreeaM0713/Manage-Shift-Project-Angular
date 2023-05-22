@@ -1,0 +1,29 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+mat-error{
+    color: grey;
+}
+
+:disabled{
+    border-color: gray;
+    color: gray;
+}
+
+input{
+    color: white;
+}
+
+mat-card{
+    font-size: x-large;
+    font-weight: 700;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+html, body { height: 100%; width: 100%;}
